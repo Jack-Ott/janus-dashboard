@@ -1,16 +1,62 @@
-# React + Vite
+Janus
+A growth analytics and financial modelling dashboard that helps businesses understand the relationship between pricing, customer acquisition costs, profitability, lifetime value and marketing performance.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Overview
+Janus is a web application designed to help founders, marketers and consultants make better commercial decisions.
+Rather than focusing on vanity metrics, Janus models how pricing, marketing spend, customer acquisition cost, gross profit and lifetime value interact, allowing users to forecast business performance before making decisions.
+The goal is to answer questions such as:
+What happens if I increase my ad spend?
+How much can CAC increase before profitability suffers?
+Is my LTV:CAC ratio healthy?
+How does increasing price affect gross profit?
+Which marketing channels are generating profitable customers?
 
-Currently, two official plugins are available:
+Features
+- Product revenue and gross profit calculations
+- Multi-channel marketing attribution
+- Automatic CAC calculation
+- Revenue validation between product sales and attributed marketing revenue
+- Profit after marketing calculations
+- LTV & CAC dashboard
+- LTGP:CAC ratio analysis
+- Marketing spend projection
+- CAC sensitivity modelling
+- Interactive dashboard
+- Responsive design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Tech Stack
+- React
+- Vite
+- JavaScript
+- CSS
+- Git
+- GitHub
+- Vercel
 
-## React Compiler
+Roadmap
+Planned features include:
+Customer cohort analysis
+Scenario comparison
+Multi-product support
+AI-powered business recommendations
+Profit optimisation engine
+Dashboard exports
+PDF reports
+CSV imports
+CRM integrations
+Marketing platform integrations
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Why I Built Janus
+Many business dashboards tell users what has already happened.
+Janus was built to help users understand what is likely to happen before they make a decision.
+By combining marketing attribution, unit economics and lifetime value modelling into a single dashboard, the aim is to provide a practical decision-support tool rather than another reporting platform.
 
-## Expanding the Oxlint configuration
+Installation
+git clone https://github.com/Jack-Ott/janus-dashboard.git
+cd janus-dashboard
+npm install
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Live Demo
+Include your Vercel URL here, for example:
+https://janus-dashboard.vercel.app
